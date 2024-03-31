@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+        integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+        integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css"
+        integrity="sha512-WidMaWaNmZqjk3gDE6KBFCoDpBz9stTsTZZTeocfq/eDNkLfpakEd7qR0bPejvy/x0iT0dvzIq4IirnBtVer5A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ShopPlusPlus-Cart</title>
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="images\BrandLogo.png" class="logo" width="200px" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2># Let's Talk</h2>
+        <p>LEAVE A MESSAGE, We Love to hear from you !</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Images</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-square-xmark"></i></a></td>
+                    <td><img src="images\Products\f1.jpg" width="70px" alt=""></td>
+                    <td>Cartoon Astroaut T-Shirts</td>
+                    <td>₹1780</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹1780</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-square-xmark"></i></a></td>
+                    <td><img src="images\Products\f2.jpg" width="70px" alt=""></td>
+                    <td>Cartoon Astroaut T-Shirts</td>
+                    <td>₹1780</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹1780</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-square-xmark"></i></a></td>
+                    <td><img src="images\Products\f3.jpg" width="70px" alt=""></td>
+                    <td>Cartoon Astroaut T-Shirts</td>
+                    <td>₹1780</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹1780</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Upgard Coupoun</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Upgrad Cart Subtotal</td>
+                    <td>₹987</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>₹987</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images\BrandLogo.png" width="200px" alt="">
+            <h4>Contact</h4>
+            <p><strong>Adress:</strong> NIDM Vinay Laxmi Chauk Banglore Phase 1, Banglore </p>
+            <p><strong>Phone No.:</strong> +91 8095456800 </p>
+            <p><strong>Hours:</strong> 10.00 AM to 06.00PM Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-pinterest"></i>
+                    <i class="fa-brands fa-square-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="col">
+            <h4>My Accout</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images\Pay\app.jpg" alt="">
+                <img src="images\Pay\play.jpg" alt="">
+            </div>
+            <p>Secured Payment Getways</p>
+            <img src="images\Pay\pay.png" alt="">
+        </div>
+        <div class="copyright">&copy; 2025, Tech2 etc - HTML CSS Ecommerce Template</div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/8d7bf1b4a1.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
